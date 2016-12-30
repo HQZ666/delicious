@@ -1,0 +1,75 @@
+<!--index.wxml-->
+
+<view class="container" >
+  <!--<view class="returnBar">
+    <image class="leftArrow" src="../img/left_arrow.png"></image>
+    <image bindtap="message" class="bell" src="../img/bell.png"></image>  
+  </view>-->
+  <view class="head-background">
+      <view class="returnBar">
+        <image bindtap="detail" class="leftArrow" src="../img/left_arrow.png"></image>
+        <image bindtap="message" class="bell" src="../img/bell.png"></image>  
+      </view>
+      <image class="userinfo-bgImg" src="{{userInfo.avatarUrl}}"></image>
+  </view>
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{name}}</text>
+    <image class="edit" src="../img/edit.png" bindtap="personal"></image>
+    <text class="userProfile" id="userProfile">{{introduction}}</text>
+  </view>
+  <view class="usermotto interval">
+    <image class="myNumber"  src="../img/my_number.png" bindtap="map"></image>
+    <text class="user-number">当前排号:</text>
+    <text class="number">1</text>
+  </view>
+  <view class="userItem" bindtap="detail">
+    <image class="userItemImg" src="../img/score.png"></image>
+    <text class="userItemText" >我的积分</text>
+    <image class="userItemArrow"  src="../img/right_arrow.png"></image>
+  </view>
+  <view class="userItem" bindtap="collection">
+    <image class="userItemImg"  src="../img/collection.png"></image>
+    <text class="userItemText">我的收藏</text>
+    <image class="userItemArrow" src="../img/right_arrow.png"></image>
+  </view>
+  <view class="userItem interval" bindtap="share">
+    <image  class="userItemImg"  src="../img/share.png"></image>
+    <text class="userItemText">分享给好友</text>
+    <image class="userItemArrow" src="../img/right_arrow.png"></image>
+  </view>
+  <view bindtap="opinion" class="userItem" >
+    <image  class="userItemImg"  src="../img/view.png"></image>
+    <text class="userItemText">意见反馈</text>
+    <image class="userItemArrow" src="../img/right_arrow.png"></image>
+  </view>
+  <view class="userItem" bindtap="commonSet">
+    <image  class="userItemImg"  src="../img/install.png"></image>
+    <text class="userItemText">设置</text>
+    <image class="userItemArrow" src="../img/right_arrow.png"></image>
+  </view>
+  <view class="foot">
+    <view class="footer">
+          <image class="bgImg" src="../img/Navigation_bar.png"></image>
+          <view class="tabBar nearby">
+              <image class="icon" src="../img/nearby.png"></image>
+              <text>附近</text>
+          </view>
+          <view class="tabBar scanning" bindtap="location">
+              <image class="icon" src="../img/scanning.png"></image>
+              <text>扫描</text>
+          </view>
+          <view class="tabBar news" bindtap="message">
+              <image class="icon" src="../img/news.png"></image>
+              <text>消息</text>
+          </view>
+          <view class="tabBar me" bindtap="individual">
+              <image class="icon" src="../img/me.png"></image>
+              <text>我的</text>
+          </view>
+          <view class="ar" bindtap="map">
+              <image src="../img/ar_toggle_button.png"></image>
+          </view>
+    </view>
+  </view>
+</view>

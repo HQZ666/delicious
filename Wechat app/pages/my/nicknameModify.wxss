@@ -1,0 +1,52 @@
+/* pages/my/nicknameModify.wxss */
+.content{
+    margin-top: 3%;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.content .intro{
+    width: 100%;
+    height:80rpx;
+    line-height: 80rpx;
+    border-bottom: 2rpx solid #f4f4f4; 
+}
+.content .nickname{
+    float: left;
+    font-size: 32rpx;
+    color: #9B9B9B;
+    height: 80rpx;
+    line-height: 80rpx;
+    padding-left: 3.2%;
+}
+.content input{
+    display: inline-block;
+    width: 85%;
+    height: 80rpx;
+    line-height: 80rpx;
+    margin-left: 2.7%;
+    font-size: 16px;
+    color: #555555;
+}
+.container{
+    width: 100%;
+    height: 80rpx;
+    margin-top: 4.5%;
+}
+.container button{
+    width: 93.6%;
+    height: 80rpx;
+    font-size: 18px;
+    opacity: 0.3;
+    color: #FFFFFF;
+    line-height: 80rpx;
+    background: #FBCC2E;
+    border-radius: 38rpx;
+}
+.container .save{
+    opacity: 1;
+}
+.container .click{
+    opacity: 0.7;
+}

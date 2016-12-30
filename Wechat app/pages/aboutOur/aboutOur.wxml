@@ -1,0 +1,9 @@
+<page>
+    <view class="about">
+        <image class="aboutImg"  src="../img/logo.png"></image>
+        <text class="aboutText">美食大作战</text>
+    </view>
+    <view class="version">
+        <text class="versionText">当前版本:1.0</text>
+    </view>
+</page>

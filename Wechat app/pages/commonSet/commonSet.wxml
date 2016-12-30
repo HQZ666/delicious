@@ -1,0 +1,26 @@
+<page>
+    <view >
+        <view class="commonSetFirst" bindtouchstart="mytouchstart" bindtouchend="mytouchend" bindtap="mytap">
+            <text class="commonSetText" >消息提醒设置</text>
+            <image class="commonSetImg1" wx:if="{{type=='open'}}" bindtap="toggle" src="../img/open.png" ></image>
+            <image class="commonSetImg2" wx:if="{{type=='off'}}"bindtap="toggle" src="../img/off.png" ></image>
+        </view>
+        <view class="commonSetSecond" bindtap="clear">
+            <text class="commonSetText">清除缓存</text>
+            <image class="commonSet_rightArrow"  src="../img/right_arrow.png"></image>
+            <text id="b" class="commonSetTip" >{{res.currentSize}}</text>
+        </view>
+        <view class="commonSetThree" >
+            <text class="commonSetText">升级版本</text>
+            <image class="commonSet_rightArrow" src="../img/right_arrow.png"></image>
+            <text class="commonSetTip">已是最新</text>
+        </view>
+        <view class="commonSetFour" bindtap="aboutOur">
+            <text class="commonSetText">关于我们</text>
+            <image class="commonSet_rightArrow" src="../img/right_arrow.png"></image>
+        </view>
+        <view class="commonSetBtn" >
+            <text class="commonSetBtnText" >退出登录</text>
+        </view>
+    </view>
+</page>

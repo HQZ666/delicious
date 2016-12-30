@@ -1,0 +1,31 @@
+<!--<view class="nav">
+        <image src="../images/left_arrow.png"></image>
+        <text>选择图片</text>
+</view>-->
+<view class="content">
+        <view>
+                <image src="../images/camera@3x.png"></image>
+                <icon type="{{iconString}}" bindtap="selected"></icon>
+        </view>
+        <view>
+                <image src="../images/pucture2@3x.png"></image>
+                <icon type="{{iconString}}" bindtap="selected"></icon>
+        </view>
+        <view>
+                <image src="../images/pucture2@3x.png"></image>
+                <icon type="{{iconString}}" bindtap="selected"></icon>
+        </view>
+        <view>
+                <image src="../images/pucture2@3x.png"></image>
+                <icon type="{{iconString}}" bindtap="selected"></icon>
+        </view>
+        <view>
+                <image src="../images/pucture2@3x.png"></image>
+                <icon type="{{iconString}}" bindtap="selected"></icon>
+        </view>
+        <view>
+                <image src="../images/pucture2@3x.png"></image>
+                <icon type="{{iconString}}" bindtap="selected"></icon>
+        </view>
+</view>
+<view class="container">没有更多了~</view>

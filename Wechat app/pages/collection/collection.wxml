@@ -1,0 +1,30 @@
+<page>
+    <modal title="确定删除此店铺" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" bindconfirm="modalChange" bindcancel="modalChange"></modal>
+    <view id="none">
+        <image class="noneImg"  src="../img/pet.png"></image>
+        <text class="noneText" >目前你还没收到消息哦</text>
+    </view>
+    
+    <view class="collectionBG" bindtap="detail">
+        <view class="collection">
+            <image class="collectionShopLogo"  src="../img/shop.png"></image>
+            <view class="shop">
+                <image class="decorateFirst"  src="../img/collection_decorate1.png"></image>
+                <text class="shopTitle" >广州烤鸭店</text>
+                <view class="shopAddressBox">
+                    <image class="shopAddressImg"  src="../img/collection_adress.png"></image>
+                    <text class="shopAddressText" >天河又一城</text>
+                </view>
+                <image class="decorateFour"  src="../img/collection_decorate2.png"></image>
+            </view>
+            <view class="operating" >
+                <text class="operatingTime" >刚刚</text>
+                <view class="operatingDeleteBox" >
+                    <image class="operatingDeleteImg" src="../img/delete.png"></image>
+                    <text bindtap="modalTap" class="operatingDeleteText">删除</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    
+</page>

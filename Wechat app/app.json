@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/loading/loading",
+    "pages/index/index",
+    "pages/Individual/Individual",
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/commonSet/commonSet",
+    "pages/collection/collection",
+    "pages/opinion/opinion",
+    "pages/aboutOur/aboutOur",
+    "pages/xiangji/xiangji",
+    "pages/my/introduction",
+    "pages/my/nicknameModify",
+    "pages/my/personal",
+    "pages/my/selectPic",
+    "pages/detail/detail",
+    "pages/share/share",
+    "pages/location/location"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

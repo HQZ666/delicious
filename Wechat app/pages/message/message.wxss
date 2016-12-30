@@ -1,0 +1,73 @@
+page{
+    background-color:#F8F5ED;
+    height:100%;
+}
+#havMessage{
+    display: none;
+}
+.message-item{
+   height:60px;
+   background-color:white;
+   margin-top:20rpx;
+}
+.arGameImg{
+    width:60rpx;
+    height:60rpx;
+    margin-top:20rpx;
+    float:left;
+    padding-left:20rpx;
+}
+.arGameTitleBox{
+    float:left;
+    height:100%;
+    width: 60%;
+    padding:0 20rpx;
+}
+.arGameTitle{
+    font-family:PingFangSC-Regular;
+    font-size:28rpx;
+    float:left;
+    padding-top:20rpx;
+    width:100%;
+}
+.arGameText{
+    font-family:PingFangSC-Regular;
+    font-size:24rpx;
+    float:left;
+    padding-top:20rpx;
+}
+.arGame{
+    width:18rpx;
+    height:20rpx;
+    margin-left:20rpx;
+    margin-top:24rpx;
+}
+.time{
+   font-size:24rpx;
+   color:#9B9B9B;
+   height:100%;
+   float:right;
+   padding:0 20rpx;
+}
+.timeText{
+    padding-top:20rpx;
+    height:100%;
+    float:left;
+}
+#noneMessage{
+    display: block;
+}
+.noneImg{
+    width:396rpx;
+    height:396rpx;
+    margin-top:279rpx;
+    margin-left:180rpx;
+    float:left;
+}
+.noneText{
+    float:left;
+    text-align:center;
+    width:100%;
+    font-size: 20px;
+    color: #9B9B9B;
+}

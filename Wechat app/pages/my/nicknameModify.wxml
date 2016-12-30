@@ -1,0 +1,13 @@
+<!--<view class="nav">
+        <image src="../images/left_arrow.png" bindtap="GoBack"></image>
+        <text>昵称修改</text>
+</view>-->
+<view class="content">
+    <view class="intro">
+        <text class="nickname">昵称</text>
+        <input value="{{name}}" auto-focus bindblur="bindinputBlur"/>
+    </view>
+</view>
+<view class="container">
+    <button class="{{btn}}" hover-class="click" bindtap="save" disabled="{{disabled}}">保存</button>
+</view>

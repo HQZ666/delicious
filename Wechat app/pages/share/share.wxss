@@ -1,0 +1,75 @@
+/* pages/share/share.wxss */
+page{
+    height:100%;
+    font-family: PingFangSC-Regular;
+    background-color: #F8F5ED;
+}
+.info{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.info .idea{    
+    width: 100%;
+    height: 334rpx;
+    background-color: #fff;
+}
+.info .idea .information{
+    width: 93%;
+    height: 25%;
+    padding: 18rpx 24rpx 50rpx 24rpx;
+    font-size: 28rpx;
+    color: #666666;
+    line-height: 40rpx;
+}
+.info .idea image{
+    width: 162rpx;
+    height: 162rpx;
+    margin-left: 24rpx;
+    margin-bottom: 20rpx;
+}
+.content{
+    margin-top: 3%;
+    position: relative;
+    width: 100%;
+    height: 162rpx;
+    background-color: #fff;
+}
+.content .intro{
+    font-size: 24rpx;
+    width: 100%;
+    height: 81rpx;
+    line-height: 81rpx;
+    border-bottom: 2rpx solid #f4f4f4; 
+}
+.content .intro image{
+    margin-top: 26rpx; 
+    margin-left: 24rpx;
+    width: 32rpx;
+    height: 32rpx;
+    float: left;
+}
+.content .intro .right{
+    float: right;
+    margin-left: 20rpx;
+    margin-right: 24rpx;
+    width: 16rpx;
+    height: 26rpx;
+}
+.content .txt{
+    display: inline-block;
+    padding-left: 20rpx;
+    color: #666666;
+}
+.content .intro .address{
+    float: right;
+    padding: 26rpx 0;
+    color: #9B9B9B;
+    line-height: 24rpx;
+}
+.content .intro .secret{
+    float: right;
+    padding: 26rpx 0;
+    color: #9B9B9B;
+    line-height: 24rpx;
+}

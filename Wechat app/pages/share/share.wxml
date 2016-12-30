@@ -1,0 +1,20 @@
+<view class="info">
+    <view class="idea">
+        <textarea class="information" placeholder="这一刻想法..." value="我推荐一个很值得拥有的应用@AR美食游戏—精心推荐附近各种美食、各种有趣AR游戏。等你来玩哦！"/>
+        <image src="../images/logo@3x.png"></image>
+    </view>
+    <view class="content">
+        <view class="intro" bindtap="map">
+            <image src="../images/share_adress@3x.png"></image>
+            <text class="txt">{{address}}</text>
+            <image class="right" src="../images/right_arrow@3x.png"></image>
+            <text class="address" bindtap="address">{{show}}</text>
+        </view>
+        <view class="intro">
+            <image src="../images/share_secret@3x.png"></image>
+            <text class="txt">谁可以看</text>
+            <image class="right" src="../images/right_arrow@3x.png"></image>
+            <text class="secret" bindtap="secret">公开</text>
+        </view>
+    </view>
+</view>

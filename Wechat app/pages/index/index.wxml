@@ -1,0 +1,79 @@
+<!--index.wxml-->
+<view style="width:100%;" bindtap="click">
+    <image style="position:relative;width: 100%; height: {{imageheight}}px;" src="{{imagethirdsrc}}" bindload="imageLoad"></image>
+    <view style="position:absolute;width: 100%; height: {{imageheight}}px; top:0; overflow:hidden;">
+     
+       
+        <!--<view style="width:700rpx;height:700rpx;margin:0 auto;margin-top:120rpx;">
+            <image style="width:700rpx;height:800rpx;" src="../img/quan.png"></image>
+        </view>-->
+
+        <view class="outer">
+            <view class="middle">
+                <view class="inner">
+                    <view class="in">
+                        <view class="coordinate" wx:for="{{list}}" wx:for-item="items" wx:key="unique" id="id{{index}}">
+                            <image  src="../img/1@3x.png" data-id="{{items.id}}" data-index="{{index}}" class="point" catchtap="actionSheetTap" bindchange="actionSheetChange"></image>
+                            <view id="{{items.id}}" class="Popup" wx:if="{{showPane && showPane == items.id}}" hidden="{{actionSheetHidden}}">      
+                                    <image class="panel" src="../img/Popup@3x.png"></image>
+                                    <view>
+                                        <image class="logo" src="../img/S_head.@3x.png"></image>
+                                        <text>{{items.title}}</text>
+                                    </view>
+                                    <view class="info">
+                                        <image src="../img/price@3x.png"></image>
+                                        <text class="prices">115元/人</text>
+                                        <text class="tips">(人均消费)</text>
+                                    </view>
+                                    <view class="info" id="info">
+                                        <image src="../img/index_navigation@3x.png"></image>
+                                        <text class="map">开始导航</text>
+                                    </view>
+                                    <image class="num" src="{{numSrc}}" bindtap="getNum"></image>
+                            </view>
+                            <view wx:else id="{{items.id}}" class="Popup" hidden="true">
+                                    <view>
+                                        <image class="logo" src="../img/S_head.@3x.png"></image>
+                                        <text>{{items.title}}</text>
+                                    </view>
+                                    <view class="info">
+                                        <image src="../img/price@3x.png"></image>
+                                        <text class="prices">115元/人</text>
+                                        <text class="tips">(人均消费)</text>
+                                    </view>
+                                    <view class="info">
+                                        <image src="../img/index_navigation@3x.png"></image>
+                                        <text class="map">开始导航</text>
+                                    </view>
+                                    <image class="num" src="{{numSrc}}" bindtap="getNum"></image>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="footer">
+        <image class="bgImg" src="../img/Navigation_bar.png"></image>
+        <view class="tabBar nearby">
+            <image class="icon" src="../img/nearby.png"></image>
+            <text>附近</text>
+        </view>
+        <view class="tabBar scanning" bindtap="location">
+            <image class="icon" src="../img/scanning.png"></image>
+            <text>扫描</text>
+        </view>
+        <view class="tabBar news" bindtap="message">
+            <image class="icon" src="../img/news.png"></image>
+            <text>消息</text>
+        </view>
+        <view class="tabBar me" bindtap="individual">
+            <image class="icon" src="../img/me.png"></image>
+            <text>我的</text>
+        </view>
+        <view class="ar" bindtap="map">
+            <image src="../img/ar_toggle_button.png"></image>
+        </view>
+    </view>
+</view>

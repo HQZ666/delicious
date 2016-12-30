@@ -1,0 +1,47 @@
+<page>
+<view id="havMessage">
+    <view class="message-item" bindtap="modalTap">
+        <image class="arGameImg" src="../img/ar_game.png"></image>
+        <view class="arGameTitleBox" >
+            <text class="arGameTitle" >AR游戏重磅来袭</text>
+            <text class="arGameText" >你还在等什么什么,赶快加入吧...</text>
+            <image class="arGame"  src="../img/yellwo_right_arrow.png"></image>
+        </view>
+        <view class="time" >
+            <text class="timeText">1</text>
+            <text class="timeText">分钟前</text>
+        </view>
+    </view>
+     <view class="message-item" >
+        <image class="arGameImg" src="../img/ar_game.png"></image>
+        <view class="arGameTitleBox" >
+            <text class="arGameTitle" >AR游戏重磅来袭</text>
+            <text class="arGameText" >你还在等什么什么,赶快加入吧...</text>
+            <image class="arGame"  src="../img/yellwo_right_arrow.png"></image>
+        </view>
+        <view class="time" >
+            <text class="timeText">1</text>
+            <text class="timeText">分钟前</text>
+        </view>
+    </view>
+     <view class="message-item">
+        <image class="arGameImg" src="../img/ar_game.png"></image>
+        <view class="arGameTitleBox" >
+            <text class="arGameTitle" >AR游戏重磅来袭</text>
+            <text class="arGameText" >你还在等什么什么,赶快加入吧...</text>
+            <image class="arGame"  src="../img/yellwo_right_arrow.png"></image>
+        </view>
+        <view class="time" >
+            <text class="timeText">1</text>
+            <text class="timeText">分钟前</text>
+        </view>
+    </view>
+</view>
+<view id="noneMessage">
+    <image class="noneImg"  src="../img/pet.png"></image>
+    <text class="noneText" >目前你还没收到消息哦</text>
+</view>
+<modal title="标题" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" bindconfirm="modalChange" bindcancel="modalChange">
+    确定删除此消息
+</modal>
+</page>

@@ -1,0 +1,155 @@
+/**index.wxss**/
+
+
+			#main{
+				width: 900rpx;
+				height: 900rpx;
+				margin: 0 auto;
+				padding-top: 150rpx;
+				
+			}
+      #my{
+        width: 50rpx;
+        height: 50rpx;
+        box-shadow: 0 0 2rpx 4rpx rgba(255, 0, 0,0.5);
+      	margin: 0 auto;
+				top: 345rpx;
+				left:325rpx;
+				display: block;
+				position: absolute;
+				border-radius: 50%;
+      }
+			#a{
+				width: 150rpx;
+				height: 150rpx;
+				margin: 0 auto;
+				top: 295rpx;
+				left:275rpx;
+				box-shadow: 0 0 2rpx 4rpx rgba(255, 255, 255, 0.5);
+				display: block;
+				position: absolute;
+				border-radius: 50%;
+			}
+			
+			#b{
+				width: 180rpx;
+				height: 180rpx;
+				margin: 0 auto;
+				display: block;
+				position: absolute;
+				border-radius: 50%;
+			}
+			#b:after{
+				content: '';
+				position: absolute;
+				width: 800rpx;
+				height: 800rpx;
+				border-radius: 50%;
+				box-shadow: 0 0 2rpx 4rpx rgba(255, 255, 255, 0.8);
+				top: 50%;
+				left: 50%;
+				margin-top: -120rpx;
+				margin-left: -140rpx;
+				z-index: 3;
+				opacity: 0;
+				-webkit-animation: halo 4s 1s infinite ease-out;
+				-moz-animation: halo 4s 1s infinite ease-out;
+				animation: halo 4s 1s infinite ease-out;
+			}
+			#c{
+			  width: 180rpx;
+				height: 180rpx;
+				margin: 0 auto;
+				
+				display: block;
+				position: absolute;
+				border-radius: 50%;
+			}
+			#c:after{
+				content: '';
+				position: absolute;
+				width: 800rpx;
+				height: 800rpx;
+				border-radius: 50%;
+				box-shadow: 0 0 2rpx 4rpx rgba(255, 255, 255, 0.8);
+				top: 50%;
+				left: 50%;
+				margin-top: -120rpx;
+				margin-left: -140rpx;
+				z-index: 3;
+				opacity: 0;
+				-webkit-animation: halo 4s 2s infinite ease-out;
+				-moz-animation: halo 4s 2s infinite ease-out;
+				animation: halo 4s 2s infinite ease-out;
+			}
+			#d{
+				width: 180rpx;
+				height: 180rpx;
+				margin: 0 auto;
+				display: block;
+				position: absolute;
+				border-radius: 50%;
+			}
+			#d:after{
+				content: '';
+				position: absolute;
+				width: 800rpx;
+				height: 800rpx;
+				border-radius: 50%;
+				box-shadow: 0 0 2rpx 4rpx rgba(255, 255, 255, 0.8);
+				top: 50%;
+				left: 50%;
+				margin-top: -120rpx;
+				margin-left: -140rpx;
+				z-index: 3;
+				opacity: 0;
+				-webkit-animation: halo 4s 3s infinite ease-out;
+				-moz-animation: halo 4s 3s infinite ease-out;
+				animation: halo 4s 3s infinite ease-out;
+			}
+			#e{
+				width: 180rpx;
+				height: 180rpx;
+				margin: 0 auto;
+				
+				display: block;
+				position: absolute;
+				border-radius: 50%;
+			}
+			#e:after{
+				content: '';
+				position: absolute;
+				width: 800rpx;
+				height: 800rpx;
+				border-radius: 50%;
+				box-shadow: 0 0 2rpx 4rpx rgba(255, 255, 255, 0.8);
+				top: 50%;
+				left: 50%;
+				margin-top: -120rpx;
+				margin-left: -140rpx;
+				z-index: 3;
+				opacity: 0;
+				-webkit-animation: halo 4s 4s infinite ease-out;
+				-moz-animation: halo 4s 4s infinite ease-out;
+				animation: halo 4s 4s infinite ease-out;
+			}
+			
+			.single{
+				position: relative;
+				width: 100%;
+				height: 100%;
+			}
+			
+			@keyframes halo {
+				0% {
+					opacity: 0;
+					transform: scale(0.1);
+				}
+				50% {
+					opacity: 1;
+				}
+				100% {
+					opacity: 0;
+					transform: scale(1.2);
+				}
+			}

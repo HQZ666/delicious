@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view style="width:100%;">
+    <image style="position:relative;width: 100%; height: {{imageheight}}px;" src="{{imagethirdsrc}}" bindload="imageLoad"></image>
+    <view style="position:absolute;width: 100%; height: {{imageheight}}px;top:0;">      
+        <view style="margin:0 auto;margin-top:150rpx;position:absolute;text-align:center;width:100%;">
+            <text style="color:#fff;font-size:40rpx;">正在为您搜索附近美食...</text>
+        </view>
+        <view style="width:700rpx;height:700rpx;margin:0 auto;margin-top:180rpx;">
+			<view class="single">
+                <view id="my">
+                </view>
+				<view id="a">
+				</view>
+				<view id="b">
+				</view>
+				<view id="c">
+				</view>
+				<view id="d">
+				</view>
+				<view id="e">
+				</view>
+			</view>
+        </view>
+    </view>
+</view>

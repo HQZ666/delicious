@@ -1,0 +1,25 @@
+.aboutImg{
+    width:200rpx;
+    height:200rpx;
+    margin: 0 auto;
+    margin-top: 200rpx;
+    margin-left: 276rpx;
+}
+.aboutText{
+    width: 100%;
+    float: left;
+    margin-top: 20rpx;
+    font-size: 20px;
+    text-align: center;
+    color: #fbcc2e;
+}
+.version{
+    width: 100%;
+    position: absolute;
+    bottom: 40rpx;
+    text-align: center;
+}
+.versionText{
+    font-size: 14px;
+    color: #666666;
+}

@@ -1,0 +1,9 @@
+<view class="intro">
+    <view class="board">
+        <text>留下你的豪言,洋洋洒洒任你吹~</text>
+        <textarea class="message" value="{{introduction}}" auto-focus bindblur="bindTextAreaBlur" />
+    </view>
+</view>
+<view class="container">
+    <button class="{{btn}}" hover-class="click" bindtap="save" disabled="{{disabled}}" >保存</button>
+</view>

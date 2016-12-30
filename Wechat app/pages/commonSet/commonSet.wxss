@@ -1,0 +1,77 @@
+page{
+    background-color:#F8F5ED;
+    height:100%;
+}
+.commonSetFirst{
+    background-color:white;
+    height:40px;
+    margin-top:20rpx;
+    font-size: 16px;
+}
+.commonSetText{
+    line-height:40px;
+    margin-left:24rpx;
+    color: #555555;
+    font-size: 16px;
+}
+.commonSetImg1{
+    float:right;
+    margin-top:18rpx;
+    margin-right:20rpx;
+    width:92rpx;
+    height:48rpx;
+}
+.commonSetImg2{
+    float:right;
+    margin-top:18rpx;
+    margin-right:20rpx;
+    width:92rpx;
+    height:48rpx;
+}
+.commonSetSecond{
+    background-color:white;
+    height:40px;
+    border-bottom:1px solid #eee;
+    margin-top:40rpx;
+    font-size: 16px;
+}
+.commonSetThree{
+    background-color:white;
+    height:40px;
+    border-bottom:1px solid #eee;
+    margin-bottom:20rpx;
+    font-size: 16px;
+}
+.commonSetFour{
+    background-color:white;
+    height:40px;
+    font-size: 16px;
+}
+.commonSet_rightArrow{
+    width:16rpx;
+    height:26rpx;
+    float:right;
+    margin-top: 24rpx;
+    margin-right:24rpx;
+}
+.commonSetTip{
+    float:right;
+    line-height:40px;
+    font-size:12px;
+    margin-right:20rpx;
+    color: #9b9b9b;
+}
+.commonSetBtn{
+    margin:0 auto;
+    margin-top:60rpx;
+    text-align:center;
+    border-radius:15px;
+    width:702rpx;
+    height:80rpx;
+    background-color:#FBCC2E;
+}
+.commonSetBtnText{
+    line-height:80rpx;
+    color: white;
+    font-size: 18px;
+}

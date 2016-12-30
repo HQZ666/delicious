@@ -1,0 +1,60 @@
+/* pages/my/selectPic.wxss */
+page{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    font-family: PingFangSC-Regular;
+    background-color: #F8F5ED;
+}
+/*.nav{
+    position: relative;
+    width: 100%;
+    height: 6.6%;
+    line-height: 200%;
+    text-align: center;
+    background-color: #FBCC2E;
+}
+.nav image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    margin-left: 3%;
+    width: 2.7%;
+    height: 37%;
+}
+.nav text{
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 18px;
+}*/
+.content{
+    margin-top: 1.5%;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.content view{
+    position: relative;
+    display: inline-block;
+    margin: 1.8% 3.2%;
+}
+.content image{
+    width: 200rpx;
+    height: 200rpx;
+}
+.content icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 10rpx;
+    padding-right: 10rpx; 
+}
+.container{
+    margin-top: 40rpx;
+    font-size: 28rpx;
+    color: #9B9B9B;
+    line-height: 28rpx;
+}
